@@ -18,10 +18,13 @@ public class Tarefa {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
+	
 	private String titulo;
 	private String descricao;
 
+	
 	private LocalDateTime dataInicio;
+	
 	private LocalDateTime dataFim;
 	private LocalDateTime dataLembrete;
 
